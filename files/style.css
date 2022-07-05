@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(238, 190, 174);
+}
+.productSec{
+    display: flex;
+    background-color: aquamarine;
+    /* width: 150px; */
+}
+.productSec1{
+    flex: 2;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productSec1Box{
+    background-color: antiquewhite;
+    width: 200px ;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    height: 250px;
+}
+.productSec2{
+    
+    flex: 1;
+    background-color: crimson;
+    
+}
